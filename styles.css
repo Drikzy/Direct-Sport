@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #24252a;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  }
+
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+  }
+
+  header.back {
+    padding: 10px;
+    background-color: #24252a;
+    margin-top: -5px;
+  }
+
+  h4{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  div.channel{
+    background-color: rgba(0, 136, 169, 1);
+    background-size: cover;
+  }
+
+  div.bein,
+  div.btsport,
+  div.canal,
+  div.rmcsport,
+  div.clubrtl{
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 400px;
+  }
+
+  header.blue{
+    padding: 50px;
+    background-color:rgba(0, 136, 169, 1);
+    margin-top: -5px;
+  }

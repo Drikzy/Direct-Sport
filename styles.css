@@ -59,7 +59,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     text-align: center;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(207, 233, 240);
     color: white;
   }
 
@@ -77,8 +77,9 @@
   }
 
   div.channel{
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(207, 233, 240);
     background-size: cover;
+    height: 1100px;
   }
 
   div.bein,
@@ -89,11 +90,16 @@
     display: flex; 
     justify-content: space-between;
     list-style: none;
-    padding: 0px 400px;
+    padding: 1% 30%;
   }
 
+  div.channelblue,
   header.blue{
-    padding: 50px;
-    background-color:rgba(0, 136, 169, 1);
+    padding: 100px;
+    background-color:rgb(207, 233, 240);
     margin-top: -5px;
+  }
+
+  img.fond{
+    background-blend-mode: darken;
   }
